@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<club version="1">
+  <!-- Name of the team -->
+  <name>Fractal</name>
+
+  <!-- Zone of the team (See in game for the zone structure) -->
+  <zone>World|Europe|United Kingdom|England</zone>
+
+  <!-- City of the team -->
+  <city>World</city>
+
+  <!-- Colors of the team (Used on the spawns, the poles and the UI) -->
+  <color primary="00F" secondary="F00" />
+
+  <!-- Emblem of the team (Used on the spawns, the poles and the UI) -->
+  <!-- Must be a dds file in BC1/DXT1 with mipmaps of 512x512 pixels-->
+  <!-- <emblem>http://www.example.com/Emblem_Example.dds</emblem>-->
+
+  <!-- Players list -->
+  <players>
+    <!-- ManiaPlanet login of the player -->
+    <player login="Example1">
+      <!-- Nickname of the player (Can be used by game modes to automatically rename the player on the server) -->
+      <nickname>My name is Example 1</nickname>
+
+      <!-- Avatar of the player (Can be used by game modes to automatically replace the avatar of the player on the server) -->
+      <!-- Any format supported by ManiaPlanet can be used (jpg, png, tga, dds, webm) -->
+      <avatar>http://www.example.com/Avatar_Example1.png</avatar>
+    </player>
+
+    <!-- You can add as many players as you want -->
+    <player login="bothered_lemming">
+      <nickname>Fractal $00Fßѻ$20Dt$30Ch$40Be$50Ar$609e$708d_$906l$A05ę$B04m$C03m$D02i$E01n$F00g</nickname>
+      <!--<avatar>http://www.example.com/Avatar_Example2.png</avatar>-->
+    </player>
+  </players>
+</club>
